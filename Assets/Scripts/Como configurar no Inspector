@@ -1,0 +1,24 @@
+🔧 Como configurar no Inspector:
+Selecione o objeto interativo (ex: QUAD_PainelEducativo)
+Adicione o componente InteracaoPainel
+Configure as cores e atribua um AudioClip (som de clique)
+No campo On Interagir, clique em + e arraste um objeto para executar uma ação extra (opcional)
+Adicione o componente XR Simple Interactable (do XR Interaction Toolkit) e conecte os eventos:
+On Hover Enter → InteracaoPainel.OnHoverEnter()
+On Hover Exit → InteracaoPainel.OnHoverExit()
+On Select → InteracaoPainel.OnSelect()
+
+
+Estrutura de Pastas para GitHub
+
+EcoMeta-GaleriaVR/
+├── Assets/
+│   ├── Scenes/MainScene.unity
+│   ├── Scripts/PlayerMovement.cs, InteracaoPainel.cs
+│   ├── Materials/M_Chao.mat, M_Painel.mat
+│   ├── Audio/som_clique.wav
+│   └── Prefabs/ (vazio para expansões)
+├── ProjectSettings/ (XR, Build, Input)
+├── Packages/manifest.json
+├── README.md
+└── .gitignore
