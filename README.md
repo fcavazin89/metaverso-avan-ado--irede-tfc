@@ -181,7 +181,7 @@ Testei frequentemente no Unity Editor antes de qualquer build, documentei as con
 
 ## 🔗 Links
 
-- **Repositório:** [github.com/fcavazin89/metaverso---irede-tfc](https://github.com/fcavazin89/metaverso---irede-tfc)
+- **Repositório:** [github.com/fcavazin89/metaverso---irede-tfc](https://github.com/fcavazin89/metaverso-avan-ado--irede-tfc)
 
 ---
 
